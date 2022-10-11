@@ -1,0 +1,78 @@
+body {
+    font-size: 1.5em;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+}
+.gridOne {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.gridTwo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+}
+.gridTwo .thing1 {
+    background-color: #9f3548;
+    color: #AA9939;
+}
+.gridTwo .thing2 {
+    background-color: #323875;
+    color: #9f3548;
+}
+.gridTwo .thing3 {
+    background-color: #AA9939;
+    color: #323875;
+}
+.gridThree {
+    display: grid;
+    grid-template-rows: 1f 3fr;
+    background-color: bisque;
+    width: 500px;
+    height: 300px;
+}
+.gridThree img {
+   
+    width: 500px;
+    height: 225px;
+    object-fit: cover;
+}
+.gridFour {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    background-color: green;
+    width: 500px;
+}
+
+.gridFour #twins {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.gridFive {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    background-color: #E2EAE2;
+    width: 500px;
+}
+
+.gridFive #half-n-half {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    
+}
+
+.gridFive #half-n-half img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+
+.gridSix {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    width: 500px;
+    background-color: lightgray;
+}
+.gridSix i {
+    justify-self: center;
+    align-self: center;
+}
